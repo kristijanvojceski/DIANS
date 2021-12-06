@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyCulture", "MyCulture", "{A6C57709-EBF3-4977-857C-FB0206C28343}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Dians\domasno1\myculturesql.sql = ..\..\..\Desktop\Dians\domasno1\myculturesql.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCulture.Web", "MyCulture.Web\MyCulture.Web.csproj", "{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4E6A1EA-BF6F-45C8-9AAA-1415489B4ABF} = {A6C57709-EBF3-4977-857C-FB0206C28343}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5645585C-C27E-4145-9CED-58494E635546}
+	EndGlobalSection
+EndGlobal
